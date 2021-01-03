@@ -25,6 +25,28 @@ docker run --rm \
     hotio/jackett
 ```
 
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  jackett:
+    container_name: jackett
+    image: hotio/jackett
+    ports:
+      - "9117:9117"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
+
 ## Tags
 
 | Tag                | Upstream            | Version | Build |
