@@ -4,14 +4,14 @@
       "name": "release",
       "version": "0.17.580",
       "commit": "3b96f9b",
-      "upstream": "",
+      "upstream": "Releases",
       "lastUpdated": "2021-02-23T13:07:06.157Z"
     },
     {
       "name": "testing",
       "version": "0.17.580",
       "commit": "158d6c8",
-      "upstream": "",
+      "upstream": "Pre-releases",
       "lastUpdated": "2021-02-23T13:07:48.708Z"
     },
     {
