@@ -9,10 +9,10 @@
     },
     {
       "name": "testing",
-      "version": "0.17.790",
-      "commit": "cabd545",
+      "version": "0.17.794",
+      "commit": "5ccbdb3",
       "upstream": "Pre-releases",
-      "lastUpdated": "2021-03-26T11:25:04.875Z"
+      "lastUpdated": "2021-03-27T06:14:38.954Z"
     },
     {
       "name": "nightly",
